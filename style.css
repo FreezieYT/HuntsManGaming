@@ -1,0 +1,116 @@
+body {
+    background-color:black;
+}
+
+h1 {
+    color:white;
+    text-shadow: 2px 2px red;
+    left:650px;
+    right:650px;
+    position:absolute;
+    border-width:2px;
+    border-color:red;
+    border-top-color:black;
+    border-left-color:black;
+    border-right-color:black;
+    border-style:solid;
+    padding:5px;
+}
+
+h5 {
+    color:red;
+}
+
+h2 {
+    color:red;
+}
+
+logo {
+    position:absolute;
+    left:5px;
+    top:5px;
+}
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: none;
+    color: red;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+#one {
+    background-color: $g_color_blue_promotion;
+    width: auto;
+    min-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+red {
+    position:absolute;
+    left:275px;
+    top:125px;
+}
+
+t {
+    color:white;
+}
+
+redtxt {
+    font-size:12px;
+    color:white;
+    position:absolute;
+    left:275px;
+    top:310px;
+}
+
+text {
+    position:absolute;
+    left:375px;
+    top:175px;
+}
+
+.popup{
+    background-color: #121212;
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none;
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}

@@ -1,0 +1,108 @@
+body {
+    background-color:black;
+}
+
+h1 {
+    color:white;
+    text-shadow: 2px 2px red;
+    left:650px;
+    right:650px;
+    position:absolute;
+    border-width:2px;
+    border-color:red;
+    border-top-color:black;
+    border-left-color:black;
+    border-right-color:black;
+    border-style:solid;
+    padding:5px;
+}
+
+h5 {
+    color:red;
+}
+
+h2 {
+    color:red;
+}
+
+logo {
+    position:absolute;
+    left:5px;
+    top:5px;
+}
+a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: none;
+    color: red;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+
+t {
+    color:white;
+}
+
+
+
+phone {
+    position:absolute;
+    right:500px;
+    left:700px;
+    top:250px;
+}
+
+buttonss {
+    position:absolute;
+    left:1075px;
+    top:425px;
+}
+
+nb {
+    position:absolute;
+    left:1055px;
+    top:428px;
+}
+
+bl {
+    position:absolute;
+    left:1055px;
+    top:449px;
+}
+
+grn {
+    position:absolute;
+    left:1055px;
+    top:470px;
+}
+
+orng {
+    position:absolute;
+    left:1055px;
+    top:491px;
+}
+
+prp {
+    position:absolute;
+    left:1055px;
+    top:512px;
+}
+
+red {
+    position:absolute;
+    left:1055px;
+    top:533px;
+}
+
+clrbr {
+    position:absolute;
+    right:;
+    top:;
+    border-color:gold;
+    border-width:2px;
+    border-style:solid;
+}
